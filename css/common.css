@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+html {font-size:62.5%;}/*font-size 10px*/
+
+/**여백초기화*/
+*{ margin: 0; padding:0; box-sizing: border-box;}
+/**테이블선 중첩여뷰지정, 가로크기 100%*/
+table{ width:100%; border-collapse: collapse;}
+/**목록요소에 숫자, 불릿기호 없애기*/
+ol,ul{list-style: none;}
+/**링크에 밑줄 없애기, 글자색 기본색지정*/
+a{text-decoration: none;color: #000;}
+/**글자기울임조절*/
+address{font-style: normal;}
+
+fieldset,input,textarea,select {  vertical-align: middle; outline: none;  border: 0;} /* 외 검색칸 이중선 안보이게*/
+/* select 태그 화살표 없애기appearance:  none;  */
+legend {display: none;}
